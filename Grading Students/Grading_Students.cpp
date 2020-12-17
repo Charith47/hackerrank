@@ -19,11 +19,11 @@ vector<int> gradingStudents(vector<int> grades) {
     return grades;
 }
 
-// End Solution --- 
-
 int diffMult(int num) {
     return 5-(num%5);
 }
+
+// End Solution --- 
 
 int main()
 {
