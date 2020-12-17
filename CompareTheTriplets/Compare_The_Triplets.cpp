@@ -6,9 +6,12 @@ string ltrim(const string &);
 string rtrim(const string &);
 vector<string> split(const string &);
 
-// Complete the compareTriplets function below.
+// Solution ---
+
 vector<int> compareTriplets(vector<int> a, vector<int> b) {
+    
     vector<int> result(2);
+    
     for(int i = 0 ; i < a.size(); i++){
          if(a[i] > b[i]){
              result[0] += 1;
@@ -18,8 +21,10 @@ vector<int> compareTriplets(vector<int> a, vector<int> b) {
         }
     }
        
-return result;
+    return result;
 }
+
+// End Solution ---
 
 int main()
 {
